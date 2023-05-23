@@ -119,7 +119,7 @@ export default function Home() {
     // </main>
     <>
       <ContainerBody>
-        {/* <Navbar /> */}
+        <Navbar />
         <section className="relative w-full bg-[url('https://eduvibe.devsvibe.com/landing/assets/images/bg/landing-page-banner.jpg')] bg-cover bg-no-repeat bg-fixed lg:h-[650px] flex items-center">
           <div className="w-full max-w-7xl mx-auto py-16">
             <div className="px-8 md:flex md:flex-row md:items-center md:justify-between">
@@ -142,11 +142,11 @@ export default function Home() {
           </div>
         </section>
 
-        <ServicesPpb />
+        {/* <ServicesPpb />
         <ExamUp />
         <Tutor />
         <Blog />
-        <JoinUs />
+        <JoinUs /> */}
       </ContainerBody>
     </>
   );
