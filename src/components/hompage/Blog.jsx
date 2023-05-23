@@ -58,7 +58,7 @@ const Blog = () => {
 
           <div className="grid grid-cols-1 mt-8 gap-8">
             {/* Card  */}
-            <div className="w-full flex flex-row gap-8  border-solid border-[1px] border-gray-500 shadow-gray-100 rounded-xl px-8 py-8">
+            <div className="w-full lg:flex flex-row gap-8  border-solid border-[1px] border-gray-500 shadow-gray-100 rounded-xl px-8 py-8">
               <img
                 src="https://eduvibe.devsvibe.com/main/wp-content/uploads/2023/01/course-06-2-590x430.webp"
                 className="h-32 rounded-md"
@@ -74,6 +74,8 @@ const Blog = () => {
                   Headlin Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
                   standard dummy text ever since the 1500s, when an unknown
+
+                
                   printer took a galley of type and scrambled it to make a type
                   specimen book.
                 </p>
@@ -84,7 +86,7 @@ const Blog = () => {
               </div>
             </div>
             {/* Card  */}
-            <div className="w-full flex flex-row gap-8  border-solid border-[1px] border-gray-500 shadow-gray-100 rounded-xl px-8 py-8">
+            <div className="w-full lg:flex flex-row gap-8  border-solid border-[1px] border-gray-500 shadow-gray-100 rounded-xl px-8 py-8">
               <img
                 src="https://eduvibe.devsvibe.com/main/wp-content/uploads/2023/01/course-06-2-590x430.webp"
                 className="h-32"
